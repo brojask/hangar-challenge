@@ -1,0 +1,204 @@
+/*
+Theme Name:         Hangar Challenge Theme
+Theme URI:          https://github.com/brojask
+Description:        Hangar Challenge Theme
+Version:            1.0
+Author:             Bryan Rojas
+Author URI:         https://github.com/brojask
+Text Domain:        hangar-challenge
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+@import url(./fonts.css);
+
+body {
+	background-color: #1f2225;
+}
+
+footer {
+	background-color: #0f1112;
+	background-image: url('img/bg-footer.png');
+	border-top: 2px solid #000;
+	color: #fff;
+	min-height: 150px;
+	padding-top: 60px;
+	margin-top: 60px;
+}
+
+footer a {
+	color: #fff;
+	font-weight: bolder;
+}
+
+.container-center {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.song {
+	background-color: #8e9091;
+	padding: 14px;
+	color: #fff;
+}
+
+.table {
+	padding: 0px 20px
+}
+
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+	padding: 0px 20px;
+	vertical-align:inherit;
+	font-size: 9px;
+	border-top: 2px solid #1f2225;
+}
+
+.table>tbody>tr>td:first-child, 
+.table>tfoot>tr>td:first-child,  
+.table>thead>tr>td:first-child {
+	padding-right: 10px;
+}
+
+.table>tbody>tr>td:nth-child(2), 
+.table>tfoot>tr>td:nth-child(2),  
+.table>thead>tr>td:nth-child(2) {
+	padding-left: 0px;
+}
+
+.table a {
+	color: #fff;
+	font-size: 4em;
+}
+
+.song:nth-child(odd) {
+    background-color: #8e9091;
+}
+
+.song:nth-child(even) {
+    background-color: #616365;
+}
+
+.song.media {
+	margin-top: 2px;
+}
+
+.song .media-body {
+	width: 216px;
+}
+
+.song .media-right {
+	padding: 0;
+}
+
+.song .media-left {
+	font-size: 4em;
+}
+
+.song .media-left a,
+.song .media-body,
+.song .media-left {
+	color: #fff;
+}
+
+.song .btn {
+	color: #333;
+	background-color: #53cfdf;
+	border-color: #53cfdf;
+	font-weight: bolder;
+	border-radius: 6px;
+}
+
+.song .btn:hover,
+.song .btn:focus,
+.song .btn:active,
+.song .btn.active,
+.song .btn.focus {
+	color: #333333;
+	background-color: #4bbbc9;
+	border-color: #4bbbc9;
+}
+
+.search-form {
+	margin-bottom: 60px;
+}
+
+.search-form .input-group-lg input {
+	background-color: #35383c;
+	border-radius: 20px;
+	color: #a3a5a6;
+	border: #35383c;
+}
+
+.search-form .input-group-lg .btn {
+	background-color: #35383c;
+	border-radius: 20px;
+    
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+	color: #fff;
+	border: #35383c;
+}
+
+.modal-content iframe{
+    margin: 0 auto;
+    display: block;
+}
+
+.iframe-container {    
+    padding-bottom: 60%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header-page {
+	padding: 40px;
+}
+
+.header-page h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bolder;
+	display: inline-block;
+}
+
+#top-menu.nav-pills>li>a {
+	color: #333333;
+	background-color: #4dc4d3;
+	border-radius: 20px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	padding: 5px 15px;
+}
+
+#top-menu.nav-pills>li>a {
+	
+}
+
+@media screen and (max-width: 480px) {
+  	
+  	.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  		border-top-right-radius: 6px;
+  		border-bottom-left-radius: 0;
+  	}
+  	.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+  		border-top-right-radius: 0;
+  		border-bottom-left-radius: 6px;
+  	}
+
+}

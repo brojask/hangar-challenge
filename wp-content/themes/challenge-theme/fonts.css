@@ -1,0 +1,79 @@
+@font-face {
+    font-family: DINWeb-Light;
+    src: url(http://thehangar.cr/fonts/DINWeb-Light.eot)
+}
+
+@font-face {
+    font-family: DINWeb;
+    src: url(http://thehangar.cr/fonts/DINWeb.eot)
+}
+
+@font-face {
+    font-family: DINWeb-Cond;
+    src: url(http://thehangar.cr/fonts/DINWeb-Cond.eot)
+}
+
+@font-face {
+    font-family: DINWeb-CondLight;
+    src: url(http://thehangar.cr/fonts/DINWeb-CondLight.eot)
+}
+
+@font-face {
+    font-family: DINWeb-Medium;
+    src: url(http://thehangar.cr/fonts/DINWeb-Medium.eot)
+}
+
+@font-face {
+    font-family: DINWeb-Light;
+    src: url(http://thehangar.cr/fonts/DINWeb-Light.woff) format("woff")
+}
+
+@font-face {
+    font-family: DINWeb;
+    src: url(http://thehangar.cr/fonts/DINWeb.woff) format("woff")
+}
+
+@font-face {
+    font-family: DINWeb-Cond;
+    src: url(http://thehangar.cr/fonts/DINWeb-Cond.woff)
+}
+
+@font-face {
+    font-family: DINWeb-CondLight;
+    src: url(http://thehangar.cr/fonts/DINWeb-CondLight.woff)
+}
+
+@font-face {
+    font-family: DINWeb-Medium;
+    src: url(http://thehangar.cr/fonts/DINWeb-Medium.eot) format("woff")
+}
+
+@font-face {
+    font-family: DINWeb-Black;
+    src: url(http://thehangar.cr/fonts/DINWeb-Black.woff) format("woff")
+}
+
+@font-face {
+    font-family: DIN-Medium;
+    src: url(http://thehangar.cr/fonts/DIN-Medium.otf)
+}
+
+@font-face {
+    font-family: DIN-Medium;
+    src: url(http://thehangar.cr/fonts/DIN-Medium.ttf)
+}
+
+@font-face {
+    font-family: DIN-Black;
+    src: url(http://thehangar.cr/fonts/DIN-Black.ttf)
+}
+
+@font-face {
+    font-family: icomoon;
+    src: url(http://thehangar.cr/fonts/icomoon-webfont.eot)
+}
+
+@font-face {
+    font-family: icomoon;
+    src: url(http://thehangar.cr/fonts/icomoon-webfont.woff) format("woff")
+}
